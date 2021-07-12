@@ -38,3 +38,12 @@
     0%{left: 400px;}
     100%{left: -40px;}
 }
+
+.reset button{
+    color: red;
+    background-color: blue;
+    height: 100px;
+    width: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
