@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+#game{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url(https://i1.sndcdn.com/artworks-000506066931-n3uhi6-t500x500.jpg);
+}
+#character{
+    width: 50px;
+    height: 70px;
+    content: url(https://i.pinimg.com/originals/94/5f/7e/945f7e9968d1da2c0614c9f944961c47.gif);
+    position: relative;
+    top: 300px;
+}
+.animate{
+    animation: jump 300ms;
+}
+@keyframes jump{
+    0%{top: 300px;}
+    30%{top: 200px;}
+    70%{top: 200px;}
+    100%{top: 300px;}
+}
+#block{
+    width: 50px;
+    height: 60px;
+    content: url(https://64.media.tumblr.com/e871aa103e79e21ca42ae124751a88e4/tumblr_or26j7HFZ41uk25vwo1_250.gifv);
+    position: relative;
+    top: 250px;
+    left: 400px;
+    animation: block 1s infinite linear;
+}
+@keyframes block{
+    0%{left: 400px;}
+    100%{left: -40px;}
+}
